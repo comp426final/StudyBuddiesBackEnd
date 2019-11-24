@@ -1,2 +1,7 @@
 {
+  "users": {
+    "elvin": {
+      "passwordHash": "$2b$10$SJy41M.WJqzU53WVf8TEeeJ2A0XEqtyZeCzEwyON2jXjKrRbO0xd2"
+    }
+  }
 }
