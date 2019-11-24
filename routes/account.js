@@ -92,6 +92,23 @@ router.post('/create', function (req, res) {
 
 });
 
+router.delete('/delete', function (req, res) {
+  if (!req.body.user) {
+    res.status(401).send({msg: 'Expected a payload of user.'});
+    return;
+  }
+  
+  const name = req.body.user.toLowerCase();
+
+  let user = accountStore.get(`users.${name}`);
+  if (!user) {
+    res.status(401).send({msg: `User '${req.body.user}' doesn't exist.`});
+    return;
+  }
+  accountStore.del(`users.${name}`);
+  res.send({mes: `Successfully delete user '${req.body.user}'.`});
+});
+
 
 async function checkUser(username, password) {
   const user = accountStore.get(`users.${username}`);
