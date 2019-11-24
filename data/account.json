@@ -1,14 +1,2 @@
 {
-  "users": {
-    "chris": {
-      "passwordHash": "$2b$10$y3gHKO8.2cnFi8/.rpqU.uuPflHZD8hSXEkIwdZMgCIucRwqD6b8G",
-      "data": {
-        "role": 2,
-        "description": "Lazy..."
-      }
-    },
-    "elvin": {
-      "passwordHash": "$2b$10$X7SbOistq8TlYKX6tMZEX.qgMYzIaJsT8gotbg5e7A3UZTZvbxB3q"
-    }
-  }
 }
