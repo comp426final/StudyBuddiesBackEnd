@@ -46785,6 +46785,6 @@ const classData = [
     description: " Honors Essay. 3 Credits.  Permission of the instructor. Required of all students reading for honors in journalism. "
   }];
   
-  heroicData.forEach((item, i) => {
+  classData.forEach((item, i) => {
     item.id = i + 1;
   });
