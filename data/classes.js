@@ -1,4 +1,4 @@
-const heroicData = [
+const classData = [
   {
     department: "AERO",
     number: 101,
