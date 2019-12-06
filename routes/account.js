@@ -29,6 +29,7 @@ router.get('/status', authenticateUser, function (req, res) {
   );
 });
 
+
 /**
  * Given a name and pass, validates a user
  * and returns a JWT.
