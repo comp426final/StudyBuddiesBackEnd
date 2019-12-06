@@ -116,6 +116,7 @@ router.delete("/delete", function(req, res) {
 });
 
 router.post("/checkUser", function(req, res) {
+  console.log("headers: " + res.getHeaders())
   const name = req.body.name.toLowerCase();
   let user = accountStore.get(`users.${name}`);
   if (user) {
