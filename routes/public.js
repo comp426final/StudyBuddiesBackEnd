@@ -10,6 +10,7 @@ const {publicStore} = require('../data/DataStore');
 const {accountStore} = require('../data/DataStore');
 
 router.get('/checkUser', function (req, res) {
+  console.log(res);
   const name = req.param.name.toLowerCase();
     let user = accountStore.get(`users.${name}`);
 if (user) {
