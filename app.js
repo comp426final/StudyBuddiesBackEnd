@@ -21,7 +21,10 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(bearerToken());
 app.use(cookieParser());
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000',
+  credentials: true
+}));
 
 // auto-wire routes. Must export default router, and a prefix.
 const files = fs.readdirSync(path.join(__dirname, 'routes'));
