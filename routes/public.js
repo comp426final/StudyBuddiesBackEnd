@@ -7,19 +7,6 @@ export const router = express.Router();
 export const prefix = '/public';
 
 const {publicStore} = require('../data/DataStore');
-const {accountStore} = require('../data/DataStore');
-
-router.get('/checkUser', function (req, res) {
-  const name = req.param.name.toLowerCase();
-    let user = accountStore.get(`users.${name}`);
-if (user) {
-  res.status(401).send({msg: `User '${req.body.name}' is already a registered user.`});
-  return;
-} else {
-  res.status(200).send({msg: `Valid new Username`});
-}
-  
-});
 
 router.get('/*', parseGet, function (req, res) {
   const result = req.handleGet(publicStore);

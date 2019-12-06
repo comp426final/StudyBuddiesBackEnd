@@ -1,3 +1,13 @@
 {
-  "users": {}
+  "users": {
+    "asdgadsg": {
+      "passwordHash": "$2b$10$//yY/MNke6Xw1snwY4rPlOt/4GUzQRdvL7ZxMo6IiwRxwQkWuQshK"
+    },
+    "tedrandby": {
+      "passwordHash": "$2b$10$ROQ89jXJVMzfKQz8cIndPesZAQwvXKSZxGi7a2ubB63fJYsiBm9OK"
+    },
+    "tedrandbys": {
+      "passwordHash": "$2b$10$7ogP6L9wWl72x2usABjTXOLoYTun1KF7JLS2/Cghls0PEOgCdLxCy"
+    }
+  }
 }
