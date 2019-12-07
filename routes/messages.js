@@ -18,7 +18,11 @@ router.use(authenticateUser);
 router.get('/*', parseGet, function (req, res) {
   const result = req.handleGet(messagesStore);
   if (typeof result !== 'undefined') {
-    res.send({result})
+    res.send({
+        user: id,
+        class: classid,
+        content: `classes.${messageid}`
+    })
   }
 });
 
