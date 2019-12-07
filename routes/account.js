@@ -127,3 +127,8 @@ router.post("/checkUser", function(req, res) {
     res.status(200).send({ msg: `Valid new Username` });
   }
 });
+
+async function checkUser(username, password) {
+  const user = accountStore.get(`users.${username}`);
+  return await bcrypt.compare(password, user.passwordHash);
+}
