@@ -15,13 +15,13 @@ const {messagesStore} = require('../data/DataStore');
  */
 router.use(authenticateUser);
 
-router.get('/*', parseGet, function (req, res) {
+router.get('/class', parseGet, function (req, res) {
   const result = req.handleGet(messagesStore);
   if (typeof result !== 'undefined') {
     res.send({
         user: id,
         class: classid,
-        content: `classes.${messageid}`
+        content: `class.${messages}`
     })
   }
 });
