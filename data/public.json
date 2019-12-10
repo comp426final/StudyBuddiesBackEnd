@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "classes" : [{
       "department" : "COMP",
       "description" : "First-Year Seminar: Everyday Computing. 3 Credits. The goal of this first-year seminar is to understand the use of computing technology in our daily activities. In this course, we will study various examples of how computing solves problems in different aspects in our daily life. ",
@@ -21,4 +22,6 @@
       "number" : 60,
       "requirements" : ""
     }]
+=======
+>>>>>>> ae7385bacf2033eaf3013515b205869b22571ed2
 }

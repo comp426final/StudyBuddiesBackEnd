@@ -1,6 +1,7 @@
 import {parsePath} from "./parse_utils";
 
 export function parsePost(req, res, next) {
+
     if (typeof req.body.data === 'undefined') {
         res.status(400).send({err: 'Please provide a data object in your body.'});
         return undefined;
