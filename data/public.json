@@ -1,3 +1,24 @@
 {
-    "classes": "[]"
+    "classes" : [{
+      "department" : "COMP",
+      "description" : "First-Year Seminar: Everyday Computing. 3 Credits. The goal of this first-year seminar is to understand the use of computing technology in our daily activities. In this course, we will study various examples of how computing solves problems in different aspects in our daily life. ",
+      "gen eds" : "QI. ",
+      "modifier" : "",
+      "number" : 50,
+      "requirements" : ""
+    }, {
+      "department" : "COMP",
+      "description" : "First-Year Seminar: Everyday Computing. 3 Credits. The goal of this first-year seminar is to understand the use of computing technology in our daily activities. In this course, we will study various examples of how computing solves problems in different aspects in our daily life. ",
+      "gen eds" : "QI. ",
+      "modifier" : "H",
+      "number" : 50,
+      "requirements" : ""
+    }, {
+      "department" : "COMP",
+      "description" : "irst-Year Seminar: Robotics with LEGO®. 3 Credits. This seminar explores the process of design and the nature of computers by designing, building, and programming LEGO robots. Competitions to evaluate various robots are generally held at the middle and at the end of the semester. Previous programming experience is not required. ",
+      "gen eds" : "QI. ",
+      "modifier" : "",
+      "number" : 60,
+      "requirements" : ""
+    }]
 }
