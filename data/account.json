@@ -1,19 +1,5 @@
 {
   "users": {
-    "asdgadsg": {
-      "passwordHash": "$2b$10$//yY/MNke6Xw1snwY4rPlOt/4GUzQRdvL7ZxMo6IiwRxwQkWuQshK"
-    },
-    "tedrandby": {
-      "passwordHash": "$2b$10$ROQ89jXJVMzfKQz8cIndPesZAQwvXKSZxGi7a2ubB63fJYsiBm9OK"
-    },
-    "tedrandbys": {
-      "passwordHash": "$2b$10$7ogP6L9wWl72x2usABjTXOLoYTun1KF7JLS2/Cghls0PEOgCdLxCy"
-    },
-    "106773420601759326586": {
-      "passwordHash": "$2b$10$wwdchEiXzI6Iyx6TYmubmOGH0sgUFpv4uEgzwiUq7B2qffRoUOo82"
-    },
-    "shole": {
-      "passwordHash": "$2b$10$L5CLG.sK5.wc/HHYPvf1fOgJ3JzYsLrPCI8AW5l7dZ9Ab5mghncAK"
-    }
+   
   }
 }
