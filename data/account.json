@@ -1,7 +1,7 @@
 {
   "users": {
-    "106773420601759326586": {
-      "passwordHash": "$2b$10$NmhLdI08R8VSN5deBICvIeeBZfh9aZx9eqloO1rJ9Ux9avtxMWPnS",
+    "ted": {
+      "passwordHash": "$2b$10$KHrUvRBzKHH.axFKwsUHyeLR7yYwU4Rwu6dQf6baMfGtbVfePtYfe",
       "data": {
         "classes": []
       }
