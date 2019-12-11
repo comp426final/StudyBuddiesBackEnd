@@ -1,7 +1,15 @@
 {
   "ted": {
     "data": {
-      "classes": []
+      "name": "Ted",
+      "data": {
+        "classes": [
+          "NewClass",
+          "Hello",
+          "New",
+          "class"
+        ]
+      }
     }
   }
 }

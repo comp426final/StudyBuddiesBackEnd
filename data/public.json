@@ -1,5 +1,204 @@
 {
   "classes": {
-    
+    "NewClass": {
+      "name": "NewClass",
+      "dep": "new",
+      "description": "new",
+      "messages": [
+        {
+          "author": "Ted",
+          "content": "papa you up"
+        },
+        {
+          "author": "Ted",
+          "content": "help"
+        },
+        {
+          "author": "Ted",
+          "content": "new message"
+        },
+        {
+          "author": "Ted",
+          "content": "asd"
+        },
+        {
+          "author": "Ted",
+          "content": "asdas"
+        },
+        {
+          "author": "Ted",
+          "content": "asas"
+        }
+      ],
+      "members": [
+        {
+          "name": "Ted",
+          "data": {
+            "classes": []
+          }
+        },
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        },
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        },
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        },
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        },
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        }
+      ]
+    },
+    "Hello": {
+      "name": "Hello",
+      "dep": "Papa",
+      "description": "Johns",
+      "messages": [
+        {
+          "author": "Ted",
+          "content": ""
+        },
+        {
+          "author": "Ted",
+          "content": "papa here"
+        },
+        {
+          "author": "Ted",
+          "content": "papa still here"
+        },
+        {
+          "author": "Ted",
+          "content": "papa still here"
+        },
+        {
+          "author": "Ted",
+          "content": "papa still here"
+        }
+      ],
+      "members": [
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass"
+            ]
+          }
+        }
+      ]
+    },
+    "New": {
+      "name": "New",
+      "dep": "Class",
+      "description": "Time",
+      "messages": [
+        {
+          "author": "Ted",
+          "content": "new message"
+        },
+        {
+          "author": "Ted",
+          "content": "new message"
+        },
+        {
+          "author": "Ted",
+          "content": "adsfa"
+        },
+        {
+          "author": "Ted",
+          "content": "asdads"
+        },
+        {
+          "author": "Ted",
+          "content": "hello"
+        },
+        {
+          "author": "Ted",
+          "content": "message here"
+        },
+        {
+          "author": "Ted",
+          "content": "new mewssage"
+        },
+        {
+          "author": "Ted",
+          "content": "new mewssage"
+        }
+      ],
+      "members": [
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass",
+              "Hello"
+            ]
+          }
+        }
+      ]
+    },
+    "class": {
+      "name": "class",
+      "dep": "class",
+      "description": "ass",
+      "messages": [
+        {
+          "author": "Ted",
+          "content": "sss"
+        },
+        {
+          "author": "Ted",
+          "content": "ssss"
+        },
+        {
+          "author": "Ted",
+          "content": "new message pls"
+        }
+      ],
+      "members": [
+        {
+          "name": "Ted",
+          "data": {
+            "classes": [
+              "NewClass",
+              "Hello",
+              "New"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "checkClass": {
+    "name": "class"
   }
 }
