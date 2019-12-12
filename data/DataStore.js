@@ -7,6 +7,7 @@ import debug from 'debug';
 const debugAutoData = debug('auto-data');
 let dataStores = {};
 
+
 debugAutoData(`Loading data stores. Use require() to import.`);
 /*
   auto-load data stores. Drop in camelCase JSON files.
