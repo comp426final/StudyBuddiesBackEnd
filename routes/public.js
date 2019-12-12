@@ -9,18 +9,18 @@ export const prefix = '/public';
 const {publicStore} = require('../data/DataStore');
 
 
-router.post("/checkClass", function(req, res) {
-  const name = req.body.name.toLowerCase();
-  let user = publicStore.get(`classes.${name}`);
-  if (user) {
-    res
-      .status(222)
-      .send({ msg: `Class '${req.body.name}' is already a registered class.` });
-    return;
-  } else {
-    res.status(200).send({ msg: `Valid new Class` });
-  }
-});
+// router.post("/checkClass", function(req, res) {
+//   const name = req.body.name.toLowerCase();
+//   let user = publicStore.get(`classes.${name}`);
+//   if (user) {
+//     res
+//       .status(222)
+//       .send({ msg: `Class '${req.body.name}' is already a registered class.` });
+//     return;
+//   } else {
+//     res.status(200).send({ msg: `Valid new Class` });
+//   }
+// });
 
 
 router.get('/*', parseGet, function (req, res) {
