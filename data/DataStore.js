@@ -13,6 +13,7 @@ debugAutoData(`Loading data stores. Use require() to import.`);
   auto-load data stores. Drop in camelCase JSON files.
   A file name `account.json` will be exported as `userStore`.
  */
+
 const files = fs.readdirSync(path.join(__dirname));
 files.forEach(file => {
   if (file.endsWith('.json')) {
