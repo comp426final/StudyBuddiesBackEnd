@@ -22,7 +22,6 @@ const {publicStore} = require('../data/DataStore');
 //   }
 // });
 
-
 router.get('/*', parseGet, function (req, res) {
   const result = req.handleGet(publicStore);
   if (typeof result !== 'undefined') {
