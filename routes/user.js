@@ -16,6 +16,7 @@ const {userStore} = require('../data/DataStore');
  */
 router.use([authenticateUser, modifyUserPath]);
 
+
 router.get('/*', parseGet, function (req, res) {
   const result = req.handleGet(userStore);
   if (typeof result !== 'undefined') {
